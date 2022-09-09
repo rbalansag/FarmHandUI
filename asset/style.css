@@ -1,0 +1,117 @@
+.sidebar{
+	background-color: #929292;
+	width: 80px;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	display: grid;
+	place-items:center;
+}
+.sidebar nav ul li{
+	list-style: none;
+	display: block;
+}
+.sidebar nav .menu li a{
+line-height: 70px;
+}
+.sidebar nav ul li a{
+	font-size: 27px;
+}
+.sidebar nav ul li{
+	padding: 8px 12px;
+	border-radius: 25px;
+}
+.sidebar nav ul .active{
+	background-color: #D9D9D93D;
+	border: 3px solid #D9D9D93D;
+}
+.sidebar  .settings{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.sidebar .logo{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.wrapper{
+	padding-left: 80px;
+}
+.tomato{
+	border-radius: 25px;
+	background-color: #D9D9D9;
+	border: 1px solid #000;
+	width: 150px;
+	font-size: 17px;
+	display: grid;
+	place-items: center;
+}
+.card{
+	height: 300px;
+	display: grid;
+	place-items: center;
+}
+.card .box{
+	width: 100px;
+	height: 50px;
+	background-color: #D9D9D9;
+}
+.box-wrapper{
+	display: flex;
+	place-items: center;
+}
+
+.scroll::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.scroll::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+.scroll::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #D9D9D9;
+}
+.scroll2-mt{
+	margin-top: 600px;
+}
+.scroll2-mb{
+	margin-bottom: 100px;
+}
+.usage_breakdown_table{
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.usage_breakdown table tr th{
+	border-bottom: 1px solid;
+	border-bottom-style: dashed;
+	padding: 10px 5px;
+}
+.usage_breakdown table tr td{
+	padding: 10px 5px;
+}
+.fertilizer_input,.fertilizer_input1,.fertilizer_input2,.fertilizer_input3,.fertilizer_input4,.fertilizer_input5{
+	display: none;
+}
+.fertilizer_input_show{
+	display: unset;
+}
+@media screen and (max-width: 1242px){
+	.scroll2-mt{
+	margin-top: 850px;
+}
+.scroll2-mb{
+	margin-bottom: 100px;
+}
+
+}
