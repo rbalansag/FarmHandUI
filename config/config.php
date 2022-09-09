@@ -4,7 +4,7 @@
 class Connection{
 	private $servername = "localhost";
 	private $username = "root";
-	private $password = "123";
+	private $password = "";
 	private $dbname = "farmhand";
 	private $dsn;
 	private $pdo;
